@@ -5,8 +5,8 @@
 
 body {
     background-color: #eaeaea;
-    max-width: 30%;
-    margin-left: 35%;
+    max-width: 550px;
+    margin: 20px auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     color: #7D7D7D;
@@ -104,6 +104,34 @@ li>a {
     padding-left: 30px;
 }
 
-/* .favMovies>div {
-    display: flex;
-}*/
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    ul {
+        font-size: smaller;
+        padding: 20px;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    .favMovieContent {
+        flex-flow: wrap;
+        justify-content: center;
+        margin-bottom: 0px;
+
+    }
+
+    .favMovieContent>img {
+        padding-bottom: 10px;
+
+    }
+
+    .movieDescription {
+        padding-left: 0px;
+    }
+}
