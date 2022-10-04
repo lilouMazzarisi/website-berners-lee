@@ -5,10 +5,10 @@
 
 body {
     background-color: #eaeaea;
-    max-width: 45%;
-    margin-left: 30%;
+    max-width: 30%;
+    margin-left: 35%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     color: #7D7D7D;
 }
 
@@ -16,6 +16,7 @@ section {
     background-color: white;
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 3px #DBDBDB;
@@ -23,20 +24,20 @@ section {
 
 h1 {
     color: #DD5555;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 40px;
     padding-bottom: 15px;
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 600;
     padding-bottom: 15px;
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 600;
     padding-bottom: 20px;
 }
 
@@ -45,7 +46,7 @@ p {
     padding-bottom: 25px;
     font-weight: 100;
     line-height: 30px;
-    letter-spacing: 0.5px;
+    letter-spacing: -0.5px;
 }
 
 ul {
@@ -80,7 +81,7 @@ li>a {
     color: white;
     text-decoration: none;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .titelEmphasize {
