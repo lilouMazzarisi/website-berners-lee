@@ -2,4 +2,4 @@
 
 Make a page on Tim Berners-Lee with HTML and CSS
 
-[! Page](https://liloumazzarisi.github.io/website-berners-lee/)
+[Link to Page](https://liloumazzarisi.github.io/website-berners-lee/)
